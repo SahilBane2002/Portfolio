@@ -434,77 +434,100 @@ function App() {
         </section>
 
         {/* Experience Section */}
-        <section className="mb-20">
-          <h2 className="text-3xl font-bold text-blue-900 mb-8 border-b-4 border-purple-500 pb-2 inline-block">Experience</h2>
-          <div className="space-y-8">
-            <div className="bg-white p-8 rounded-xl shadow-lg transform hover:scale-[1.02] transition-transform duration-300">
-              <div className="flex justify-between items-start">
-                <div>
-                  <h3 className="text-xl font-bold text-purple-700">Teaching Assistant</h3>
-                  <p className="text-purple-600">Northeastern University</p>
-                  <p className="text-gray-500">Boston, MA</p>
-                </div>
-                <span className="text-sm font-semibold text-purple-500 bg-purple-100 px-3 py-1 rounded-full">Jan. 2025 - Present</span>
-              </div>
-              <ul className="mt-6 text-gray-700 list-disc list-inside space-y-3">
-                <li>Helping 20 students succeed by providing timely and constructive feedback and tutoring sessions for the graduate level Intermediate Programming Course</li>
-              </ul>
-            </div>
+<section className="mb-20">
+  <h2 className="text-3xl font-bold text-blue-900 mb-8 border-b-4 border-purple-500 pb-2 inline-block">Experience</h2>
+  <div className="space-y-8">
+    <div className="bg-white p-8 rounded-xl shadow-lg transform hover:scale-[1.02] transition-transform duration-300">
+      <div className="flex justify-between items-start">
+        <div>
+          <h3 className="text-xl font-bold text-purple-700">Teaching Assistant</h3>
+          <p className="text-purple-600">Northeastern University</p>
+          <p className="text-gray-500">Boston, MA</p>
+        </div>
+        <span className="text-sm font-semibold text-purple-500 bg-purple-100 px-3 py-1 rounded-full">Jan. 2025 - Present</span>
+      </div>
+      <ul className="mt-6 text-gray-700 space-y-3 ml-6 list-disc">
+        <li className="pl-1">
+          <div className="ml-2">Provided timely feedback and tutoring sessions for 20 students in the graduate level Intermediate Programming Course</div>
+        </li>
+        <li className="pl-1">
+          <div className="ml-2">Assisted with code reviews and evaluation of algorithms for efficiency and optimization</div>
+        </li>
+      </ul>
+    </div>
 
-            <div className="bg-white p-8 rounded-xl shadow-lg transform hover:scale-[1.02] transition-transform duration-300">
-              <div className="flex justify-between items-start">
-                <div>
-                  <h3 className="text-xl font-bold text-purple-700">Technical Intern</h3>
-                  <p className="text-purple-600">Rosefield Energy Tech.</p>
-                  <p className="text-gray-500">Mumbai, India</p>
-                </div>
-                <span className="text-sm font-semibold text-purple-500 bg-purple-100 px-3 py-1 rounded-full">Sept. 2023 - Dec. 2023</span>
-              </div>
-              <ul className="mt-6 text-gray-700 list-disc list-inside space-y-3">
-                <li>Collaborated with the technical team to design and launch 3 visually appealing, user-friendly websites, increasing user engagement</li>
-                <li>Developed the Rosefield Conference website for the Lubricants and Fuels event, resulting in a 30% increase in online registrations and a 20% boost in event attendance</li>
-                <li>Analyzed and identified warehousing solutions to clients using data analytic tools improving inventory management efficiency</li>
-              </ul>
-            </div>
-            
-            <div className="bg-white p-8 rounded-xl shadow-lg transform hover:scale-[1.02] transition-transform duration-300">
-              <div className="flex justify-between items-start">
-                <div>
-                  <h3 className="text-xl font-bold text-purple-700">Organization Lead</h3>
-                  <p className="text-purple-600">Game Developers Association</p>
-                  <p className="text-gray-500">Mumbai, India</p>
-                </div>
-                <span className="text-sm font-semibold text-purple-500 bg-purple-100 px-3 py-1 rounded-full">Aug. 2022 - Aug. 2023</span>
-              </div>
-              <ul className="mt-6 text-gray-700 list-disc list-inside space-y-3">
-                <li>Led development of Ashtagraha, an educational game teaching planetary science to school children, which won Mumbai Hackathon, Smart India Hackathon, and was a finalist in the E-Cell Idea Competition</li>
-                <li>Co-founded one of the first game development communities in the city, fostering innovation and collaboration</li>
-                <li>Pioneered Prop Hunt, a multiplayer game that received overwhelmingly positive feedback from Devfolio, Instagram and Unstop</li>
-                <li>Directed Strategem, the association's flagship hackathon with 1,000+ participants</li>
-              </ul>
-            </div>
-            
-            <div className="bg-white p-8 rounded-xl shadow-lg transform hover:scale-[1.02] transition-transform duration-300">
-              <div className="flex justify-between items-start">
-                <div>
-                  <h3 className="text-xl font-bold text-purple-700">Undergraduate Research Assistant</h3>
-                  <p className="text-purple-600">Fr. Conceicao Rodrigues College of Engineering</p>
-                  <p className="text-gray-500">Mumbai, India</p>
-                </div>
-                <span className="text-sm font-semibold text-purple-500 bg-purple-100 px-3 py-1 rounded-full">Sept. 2022 - May 2023</span>
-              </div>
-              <ul className="mt-6 text-gray-700 list-disc list-inside space-y-3">
-                <li>Conducted research on emotion recognition using Deep Learning algorithms, evaluating methodologies such as CNN, EigenFace with PCA, and DeepFace achieving accuracy of 72%, 80% and 99.93% respectively</li>
-                <li>Published the research paper "Semblance Unmasker: Hidden Emotion Recognition Using Deep Learning Approach" in IEEE 
-                  <a href="https://ieeexplore.ieee.org/document/10370099" className="text-blue-600 hover:text-blue-800 ml-1 inline-flex items-center">
-                    10.1109/ICSCNA58489.2023.10370099
-                    <ExternalLink className="h-4 w-4 ml-1" />
-                  </a>
-                </li>
-              </ul>
-            </div>
+    <div className="bg-white p-8 rounded-xl shadow-lg transform hover:scale-[1.02] transition-transform duration-300">
+      <div className="flex justify-between items-start">
+        <div>
+          <h3 className="text-xl font-bold text-purple-700">Technical Intern</h3>
+          <p className="text-purple-600">Rosefield Energy Tech.</p>
+          <p className="text-gray-500">Mumbai, India</p>
+        </div>
+        <span className="text-sm font-semibold text-purple-500 bg-purple-100 px-3 py-1 rounded-full">Sept. 2023 - Dec. 2023</span>
+      </div>
+      <ul className="mt-6 text-gray-700 space-y-3 ml-6 list-disc">
+        <li className="pl-1">
+          <div className="ml-2">Collaborated with the technical team to design and launch 3 visually appealing, user-friendly websites, increasing user engagement</div>
+        </li>
+        <li className="pl-1">
+          <div className="ml-2">Developed the Rosefield Conference website for the Lubricants and Fuels event, resulting in a 30% increase in online registrations and a 20% boost in event attendance</div>
+        </li>
+        <li className="pl-1">
+          <div className="ml-2">Analyzed and identified warehousing solutions to clients using data analytic tools improving inventory management efficiency</div>
+        </li>
+      </ul>
+    </div>
+    
+    <div className="bg-white p-8 rounded-xl shadow-lg transform hover:scale-[1.02] transition-transform duration-300">
+      <div className="flex justify-between items-start">
+        <div>
+          <h3 className="text-xl font-bold text-purple-700">Organization Lead</h3>
+          <p className="text-purple-600">Game Developers Association</p>
+          <p className="text-gray-500">Mumbai, India</p>
+        </div>
+        <span className="text-sm font-semibold text-purple-500 bg-purple-100 px-3 py-1 rounded-full">Aug. 2022 - Aug. 2023</span>
+      </div>
+      <ul className="mt-6 text-gray-700 space-y-3 ml-6 list-disc">
+        <li className="pl-1">
+          <div className="ml-2">Led development of Ashtagraha, an educational game teaching planetary science to school children, which won Mumbai Hackathon, Smart India Hackathon, and was a finalist in the E-Cell Idea Competition</div>
+        </li>
+        <li className="pl-1">
+          <div className="ml-2">Co-founded one of the first game development communities in the city, fostering innovation and collaboration</div>
+        </li>
+        <li className="pl-1">
+          <div className="ml-2">Pioneered Prop Hunt, a multiplayer game that received overwhelmingly positive feedback from Devfolio, Instagram and Unstop</div>
+        </li>
+        <li className="pl-1">
+          <div className="ml-2">Directed Strategem, the association's flagship hackathon with 1,000+ participants</div>
+        </li>
+      </ul>
+    </div>
+    
+    <div className="bg-white p-8 rounded-xl shadow-lg transform hover:scale-[1.02] transition-transform duration-300">
+      <div className="flex justify-between items-start">
+        <div>
+          <h3 className="text-xl font-bold text-purple-700">Undergraduate Research Assistant</h3>
+          <p className="text-purple-600">Fr. Conceicao Rodrigues College of Engineering</p>
+          <p className="text-gray-500">Mumbai, India</p>
+        </div>
+        <span className="text-sm font-semibold text-purple-500 bg-purple-100 px-3 py-1 rounded-full">Sept. 2022 - May 2023</span>
+      </div>
+      <ul className="mt-6 text-gray-700 space-y-3 ml-6 list-disc">
+        <li className="pl-1">
+          <div className="ml-2">Conducted research on emotion recognition using Deep Learning algorithms, evaluating methodologies such as CNN, EigenFace with PCA, and DeepFace achieving accuracy of 72%, 80% and 99.93% respectively</div>
+        </li>
+        <li className="pl-1">
+          <div className="ml-2">Published the research paper "Semblance Unmasker: Hidden Emotion Recognition Using Deep Learning Approach" in IEEE 
+            <a href="https://ieeexplore.ieee.org/document/10370099" className="text-blue-600 hover:text-blue-800 ml-1 inline-flex items-center">
+              10.1109/ICSCNA58489.2023.10370099
+              <ExternalLink className="h-4 w-4 ml-1" />
+            </a>
           </div>
-        </section>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
 
         {/* Skills Section */}
         <section className="mb-20">
@@ -543,7 +566,7 @@ function App() {
             <div className="bg-gradient-to-br from-purple-500 to-purple-600 p-6 rounded-xl shadow-lg text-white transform hover:scale-[1.02] transition-transform duration-300">
               <h3 className="font-bold text-xl mb-3">AI & ML</h3>
               <div className="text-purple-100">
-                OpenCV, Scikit-Learn, PyTorch
+                OpenCV, Scikit-Learn, PyTorch, TenserFlow
               </div>
             </div>
             <div className="bg-gradient-to-br from-pink-500 to-pink-600 p-6 rounded-xl shadow-lg text-white transform hover:scale-[1.02] transition-transform duration-300">
@@ -574,7 +597,7 @@ function App() {
                 Designed genetic and local search algorithms to optimize urban connectivity, improving emergency response times by 50%. Implemented a constraint-driven cost function for a grid environment, enhancing A* pathfinding to follow predefined movement rules with 100% accuracy.
               </p>
               <div className="flex space-x-6">
-                <a href="#" className="text-blue-600 hover:text-blue-800 font-semibold hover:underline">View Project</a>
+                <a href="https://github.com/Jithin-Veeragandham/ai-city-architect" className="text-blue-600 hover:text-blue-800 font-semibold hover:underline">View Project</a>
               </div>
             </div>
 
