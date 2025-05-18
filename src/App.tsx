@@ -610,7 +610,7 @@ function App() {
                 Conducted in-depth research on optimizing phishing detection models using Random Forest and XGBoost classifiers and employing Particle Swarm Optimization to fine-tune model performance, resulting in a significant 20% increase in accuracy.
               </p>
               <div className="flex space-x-6">
-                <a href="#" className="text-purple-600 hover:text-purple-800 font-semibold hover:underline">View Project</a>
+                <a href="https://github.com/SahilBane2002/PhishingDetection" className="text-purple-600 hover:text-purple-800 font-semibold hover:underline">View Project</a>
               </div>
             </div>
             
