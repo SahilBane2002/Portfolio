@@ -1045,7 +1045,7 @@ function App() {
                 Software Engineer
               </p>
               <p className="mt-2 text-xl text-slate-300">
-                Available from May 2025 - December 2025
+                Available from May 2025
               </p>
               <div className="mt-8 flex flex-wrap justify-center gap-5">
                 <a href="https://github.com/SahilBane2002" 
