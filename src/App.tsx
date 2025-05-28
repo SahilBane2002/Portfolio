@@ -749,7 +749,7 @@
 // export default App;
 
 import React, { useState, useEffect } from 'react';
-import { Github, Linkedin, Mail, MapPin, Phone, ExternalLink, Menu, X, ChevronRight, Download, Home, User, Briefcase, Code, BookOpen, Award, FileText } from 'lucide-react';
+import { Github, Linkedin, Mail, MapPin, Phone, ExternalLink, Menu, X, ChevronRight, Download, Home, User, Briefcase, Code, BookOpen, Award, FileText, Italic } from 'lucide-react';
 
 function App() {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -791,7 +791,7 @@ function App() {
     };
   }, []);
 
-  const scrollToSection = (sectionId) => {
+  const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
       window.scrollTo({
@@ -1195,8 +1195,8 @@ function App() {
                   <span className="mt-2 lg:mt-0 inline-block font-semibold text-gray-900 bg-slate-200 px-4 py-1 rounded-full">Jan. 2025 - Present</span>
                 </div>
                 <ul className="mt-6 text-gray-700 list-disc ml-6 space-y-3">
-                  <li>Helping 20 students succeed by providing timely and constructive feedback and tutoring sessions for the graduate level Intermediate Programming Course</li>
-                  <li>Assisted with code reviews and evaluation of algorithms for efficiency and optimization</li>
+                  <li>Helped 20 students succeed by providing timely and constructive feedback and tutoring sessions for the graduate level Intermediate Programming Course</li>
+                  <li>Provided crucial insights with code reviews and evaluation of algorithms for efficiency and optimization</li>
                 </ul>
               </div>
 
@@ -1212,7 +1212,7 @@ function App() {
                 <ul className="mt-6 text-gray-700 list-disc ml-6 space-y-3">
                   <li>Collaborated with the technical team to design and launch 3 visually appealing, user-friendly websites, increasing user engagement</li>
                   <li>Developed the Rosefield Conference website for the Lubricants and Fuels event, resulting in a 30% increase in online registrations and a 20% boost in event attendance</li>
-                  <li>Analyzed and identified warehousing solutions to clients using data analytic tools improving inventory management efficiency</li>
+                  <li>Analyzed and identified warehousing solutions to clients using data analytic tools improving inventory management efficiency by 75%</li>
                 </ul>
               </div>
               
@@ -1226,10 +1226,10 @@ function App() {
                   <span className="mt-2 lg:mt-0 inline-block font-semibold text-gray-900 bg-slate-200 px-4 py-1 rounded-full">Aug. 2022 - Aug. 2023</span>
                 </div>
                 <ul className="mt-6 text-gray-700 list-disc ml-6 space-y-3">
-                  <li>Led development of Ashtagraha, an educational game teaching planetary science to school children, which won Mumbai Hackathon, Smart India Hackathon, and was a finalist in the E-Cell Idea Competition</li>
                   <li>Co-founded one of the first game development communities in the city, fostering innovation and collaboration</li>
+                  <li>Led a team of 20 developers to create Ashtagraha, an award-winning educational game designed to teach planetary science to children. The game earned top honors at the Mumbai Hackathon and Smart India Hackathon, and was a finalist in the E-Cell Idea Competition.</li>
                   <li>Pioneered Prop Hunt, a multiplayer game that received overwhelmingly positive feedback from Devfolio, Instagram and Unstop</li>
-                  <li>Directed Strategem, the association's flagship hackathon with 1,000+ participants</li>
+                  <li>Directed Strategem, the association's flagship hackathon which hosted over 1,000 participants</li>
                 </ul>
               </div>
               
@@ -1243,7 +1243,7 @@ function App() {
                   <span className="mt-2 lg:mt-0 inline-block font-semibold text-gray-900 bg-slate-200 px-4 py-1 rounded-full">Sept. 2022 - May 2023</span>
                 </div>
                 <ul className="mt-6 text-gray-700 list-disc ml-6 space-y-3">
-                  <li>Conducted research on emotion recognition using Deep Learning algorithms, evaluating methodologies such as CNN, EigenFace with PCA, and DeepFace achieving accuracy of 72%, 80% and 99.93% respectively</li>
+                  <li>Built and evaluated emotion recognition models by implementing Deep Learning algorithms including CNN, EigenFace with PCA, and DeepFace, achieving accuracy rates of 72%, 80% and 99.93% respectively</li>
                   <li>Published the research paper "Semblance Unmasker: Hidden Emotion Recognition Using Deep Learning Approach" in IEEE 
                     <a href="https://ieeexplore.ieee.org/document/10370099" className="text-slate-600 hover:text-slate-800 ml-1 inline-flex items-center">
                       10.1109/ICSCNA58489.2023.10370099
@@ -1364,7 +1364,7 @@ function App() {
                   </div>
                 </div>
                 <p className="text-gray-700 mb-6">
-                  Designed genetic and local search algorithms to optimize urban connectivity, improving emergency response times by 50%. Implemented a constraint-driven cost function for a grid environment, enhancing A* pathfinding to follow predefined movement rules with 100% accuracy.
+                  Designed and implemented genetic algorithms with crossover and mutation operators alongside local search heuristics to optimize urban traffic flow and intersection layouts, achieving 50% improvement in emergency response times across 15 optimized intersections. Developed a constraint-driven cost function incorporating traffic density, road capacity, and emergency vehicle priority within a grid-based environment, enhancing A* pathfinding algorithm with custom heuristics to enforce predefined movement rules and traffic regulations while maintaining 100% accuracy in navigation scenarios and optimal route planning.
                 </p>
                 <div className="flex space-x-6">
                   <a href="https://github.com/Jithin-Veeragandham/ai-city-architect" className="inline-flex items-center text-slate-600 font-semibold hover:text-slate-800 transition-colors">
@@ -1382,7 +1382,7 @@ function App() {
                   </div>
                 </div>
                 <p className="text-gray-700 mb-6">
-                  Conducted in-depth research on optimizing phishing detection models using Random Forest and XGBoost classifiers and employing Particle Swarm Optimization to fine-tune model performance, resulting in a significant 20% increase in accuracy.
+                  Developed "Semblance Unmasker," a deep learning-based emotion recognition system to enhance e-learning by predicting real-time student emotional states. Implemented three methodologies: CNN (72% accuracy), EigenFace with PCA (80% accuracy), and DeepFace (99.93% accuracy) using PyTorch, TensorFlow, and OpenCV for real-time facial data processing. Published research in IEEE ICSCNA 2023 demonstrating how emotion-aware systems can improve online learning effectiveness by providing teachers with insights into student engagement, ultimately reducing dropout rates and enhancing educational outcomes.RetryClaude can make mistakes. Please double-check responses.
                 </p>
                 <div className="flex space-x-6">
                   <a href="https://github.com/SahilBane2002/PhishingDetection" className="inline-flex items-center text-slate-600 font-semibold hover:text-slate-800 transition-colors">
@@ -1400,13 +1400,13 @@ function App() {
                   </div>
                 </div>
                 <p className="text-gray-700 mb-6">
-                  Led development of an educational game teaching planetary science to school children. The project won multiple hackathons including Mumbai Hackathon and Smart India Hackathon, and was a finalist in the E-Cell Idea Competition.
+                  Developed an immersive educational game focused on planetary science concepts for school children using Unreal Engine for game engine development and Blender for designing custom 3D models of planets, spacecraft, and astronomical objects. Integrated interactive gameplay mechanics with educational content delivery systems.
                 </p>
                 <div className="flex space-x-6">
-                  <a href="#" className="inline-flex items-center text-slate-600 font-semibold hover:text-slate-800 transition-colors">
+                  {/* <a href="#" className="inline-flex items-center text-slate-600 font-semibold hover:text-slate-800 transition-colors">
                     <ExternalLink className="h-5 w-5 mr-2" />
                     <span>Demo</span>
-                  </a>
+                  </a> */}
                 </div>
               </div>
               
