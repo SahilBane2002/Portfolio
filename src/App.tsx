@@ -1436,7 +1436,7 @@ function App() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl font-bold sm:text-4xl mb-6">Ready to Work Together?</h2>
             <p className="text-xl text-slate-300 mb-10 max-w-2xl mx-auto">
-              I'm currently available for opportunities from May 2025 to December 2025. Let's create something amazing!
+              I'm currently available for opportunities from May 2025. Let's create something amazing!
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <a 
