@@ -871,7 +871,7 @@ function App() {
       
       <div className="p-6 border-t border-slate-700">
         <a 
-          href="#" 
+          href="MasterResume.pdf" 
           className="flex items-center justify-center w-full px-4 py-2 bg-white text-slate-800 font-medium rounded-lg hover:bg-slate-100 transition-colors duration-200"
         >
           <FileText className="h-5 w-5 mr-2" />
@@ -999,7 +999,7 @@ function App() {
                 </a>
                 <div className="pt-5">
                   <a 
-                    href="#" 
+                    href="MasterResume.pdf" 
                     className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-slate-700 hover:bg-slate-800"
                   >
                     <Download className="mr-2 h-5 w-5" />
@@ -1105,11 +1105,11 @@ function App() {
               <div className="md:flex md:items-start md:space-x-8">
                 <div className="md:flex-1">
                   <p className="text-gray-700 leading-relaxed text-lg mb-6">
-                    I am a Master's student in Computer Science at Northeastern University's Khoury College of Computer Sciences, with a strong foundation in Electronics and Computer Science Engineering from my undergraduate studies. My passion lies in leveraging cutting-edge technology to solve real-world problems and make a meaningful impact.
+                    I am a Master's student in Computer Science at Northeastern University's Khoury College of Computer Sciences, with a strong foundation in Electronics and Computer Science Engineering acquired during my undergraduate studies. My passion lies in leveraging cutting-edge technology to solve real-world problems and make a meaningful impact.
                   </p>
                   
                   <p className="text-gray-700 leading-relaxed text-lg mb-6">
-                    I consider myself an efficient problem-solver who thrives on challenges and believes in coding and creating solutions that drive positive change.
+                    I am an efficient problem solver who thrives on challenges and believes that coding can create solutions to a positive impact.
                   </p>
                   
                   <h3 className="text-xl font-bold text-slate-700 mb-3">Actively Seeking Roles</h3>
@@ -1119,10 +1119,10 @@ function App() {
                   
                   <div className="mt-8">
                     <a 
-                      href="#" 
+                      href="MasterResume.pdf" 
                       className="inline-flex items-center px-6 py-3 bg-slate-700 text-white font-medium rounded-lg shadow-md hover:bg-slate-800 transition-all duration-300"
                     >
-                      <Download className="mr-2 h-5 w-5" />
+                      <Download href='Master_Sahil_Bane_CV.pdf' className="mr-2 h-5 w-5" />
                       Download CV
                     </a>
                   </div>
