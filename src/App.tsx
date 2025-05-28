@@ -1382,7 +1382,7 @@ function App() {
                   </div>
                 </div>
                 <p className="text-gray-700 mb-6">
-                  Developed "Semblance Unmasker," a deep learning-based emotion recognition system to enhance e-learning by predicting real-time student emotional states. Implemented three methodologies: CNN (72% accuracy), EigenFace with PCA (80% accuracy), and DeepFace (99.93% accuracy) using PyTorch, TensorFlow, and OpenCV for real-time facial data processing. Published research in IEEE ICSCNA 2023 demonstrating how emotion-aware systems can improve online learning effectiveness by providing teachers with insights into student engagement, ultimately reducing dropout rates and enhancing educational outcomes.RetryClaude can make mistakes. Please double-check responses.
+                  Developed a cybersecurity solution combining Random Forest and XGBoost classifiers with Particle Swarm Optimization (PSO) for enhanced phishing website detection, achieving 20% improvement in accuracy over baseline models. Created a comprehensive feature extraction pipeline analyzing URL structure, domain characteristics, and HTML content patterns to identify key phishing indicators. Utilized PSO's swarm intelligence for automated hyperparameter tuning and feature selection optimization, balancing precision and recall while reducing false positives. Built using Python with scikit-learn and pandas, demonstrating the effectiveness of bio-inspired optimization algorithms in real-time cybersecurity threat assessment.
                 </p>
                 <div className="flex space-x-6">
                   <a href="https://github.com/SahilBane2002/PhishingDetection" className="inline-flex items-center text-slate-600 font-semibold hover:text-slate-800 transition-colors">
@@ -1418,7 +1418,7 @@ function App() {
                   </div>
                 </div>
                 <p className="text-gray-700 mb-6">
-                  Published IEEE research paper on emotion recognition using Deep Learning methodologies including CNN, EigenFace with PCA, and DeepFace, achieving accuracy rates of up to 99.93%.
+                  Developed "Semblance Unmasker," a deep learning-based emotion recognition system to enhance e-learning by predicting real-time student emotional states. Implemented three methodologies: CNN (72% accuracy), EigenFace with PCA (80% accuracy), and DeepFace (99.93% accuracy) using PyTorch, TensorFlow, and OpenCV for real-time facial data processing. Published research in IEEE ICSCNA 2023 demonstrating how emotion-aware systems can improve online learning effectiveness by providing teachers with insights into student engagement, ultimately reducing dropout rates and enhancing educational outcomes.
                 </p>
                 <div className="flex space-x-6">
                   <a href="https://ieeexplore.ieee.org/document/10370099" className="inline-flex items-center text-slate-600 font-semibold hover:text-slate-800 transition-colors">
