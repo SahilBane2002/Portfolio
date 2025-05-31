@@ -463,7 +463,7 @@ function App() {
                     <p className="text-xl font-semibold mb-1" style={{color: '#8CB369'}}>Northeastern University</p>
                     <p className={`${theme.textMuted} text-lg`}>Boston, MA</p>
                   </div>
-                  <span className={`mt-4 lg:mt-0 inline-block font-semibold px-6 py-2 rounded-full text-lg ${isDarkMode ? 'text-gray-800' : 'text-gray-800'}`} style={{backgroundColor: '#F4E285'}}>Jan. 2025 - Present</span>
+                  <span className={`mt-4 lg:mt-0 inline-block font-semibold px-6 py-2 rounded-full text-lg ${isDarkMode ? 'text-gray-800' : 'text-gray-800'}`} style={{backgroundColor: '#F4E285'}}>Jan. 2025 - Apr. 2025</span>
                 </div>
                 <ul className={`${theme.textSecondary} list-disc ml-6 space-y-4 text-lg`}>
                   <li>Helped 20 students succeed by providing timely and constructive feedback and tutoring sessions for the graduate level Intermediate Programming Course</li>
